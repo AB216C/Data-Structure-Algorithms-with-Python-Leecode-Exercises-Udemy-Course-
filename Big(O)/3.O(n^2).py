@@ -1,3 +1,5 @@
+# If growth is squared → curved upward → O(n²)
+
 def print_items(n):
     for i in range(n):
         for j in range(n):
