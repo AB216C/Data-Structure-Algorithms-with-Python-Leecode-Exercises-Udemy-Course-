@@ -1,3 +1,5 @@
+#Removing the node the beginning
+
 class Node:
     def __init__(self,value):
         self.value = value
@@ -25,41 +27,29 @@ class LinkedList:
             self.tail = new_node
         self.length +=1
 
-    def pop(self):
+    def pop_first(self):
         if self.length==0:           #Checking the Length of a list before declement
             return None
         temp = self.head
-        pre = self.head
-        while(temp.next):
-            pre = temp
-            temp = temp.next
-        self.tail = pre
-        self.tail.next = None
+        self.head = self.head.next
+        temp.next = None
         self.length -=1
-        if self.length == 0:         #Checking the Length of a list after declement
-            self.head = None
+        if self.length == 0:
             self.tail = None
-        return temp.value             #This return the removed node
-    
+        return temp.value
 
 
 my_linked_list = LinkedList(1)
 my_linked_list.append(2)
 
-# 2 items - Return 2 Node
+# 2 items - Return 1 Node
 
-print(my_linked_list.pop())
+print(my_linked_list.pop_first())
 
-#  1 item - Return 1 Node 
+#  1 item - Return 2 Node 
 
-print(my_linked_list.pop())
+print(my_linked_list.pop_first())
 
 # 0 item - Return 0 Node
 
-print(my_linked_list.pop())
-    
-
-
-
-
-
+print(my_linked_list.pop_first())

@@ -64,6 +64,19 @@ Head -> A → B -> C -> null(none)
      * This is O of n  or O(n)-iteration is required
 
 
+     # REMOVING  A NODE FROM THE BEGINING OF THE LIST
+
+     - STEP1: temp = self.head : Here, Temp is being considered as something else pointing to the node being removed and temp holding head temporarily
+
+     - STEP2: self.head = self.head.next : Then head is moved to the node next to the node being removed
+
+     - STEP3: temp.next = None : After the head has been moved, then the node being removed is pointing to nothing. Once it points to nothing, it get removed
+
+     - STEP4: self.length -= 1 : Length of the list has been decreased after a node was removed
+
+
+
+
 
 
     
