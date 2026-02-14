@@ -1,4 +1,4 @@
-#This code is usefull for printing all values from the node
+#This method is usefull for printing all values from the node
 
 def print_list(self):
     temp = self.head
