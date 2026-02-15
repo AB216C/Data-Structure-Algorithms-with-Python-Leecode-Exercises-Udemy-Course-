@@ -74,6 +74,21 @@ Head -> A → B -> C -> null(none)
 
      - STEP4: self.length -= 1 : Length of the list has been decreased after a node was removed
 
+     # GETTING A NODE AT A CERTAIN INDEX
+
+     Why the variable i was not used inside a for loop but underscore(_) instead?
+
+     ## This was not used:
+     for i in range(index):
+          temp = temp.next
+          print(i)
+      i was used because it was going to be used inside the for loop such as print(i)
+      ## This was used:
+     for _ in range(index):
+          temp = temp.next
+
+     A variable i was not used, _ was used because there was no variable to be printed
+
 
 
 
