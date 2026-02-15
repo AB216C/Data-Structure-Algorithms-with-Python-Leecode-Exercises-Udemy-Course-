@@ -25,7 +25,7 @@ my_list3.pop(0)
 my_list4 = [11,3,23,7]
 my_list4.insert(0,17)
 
-# Removing and adding at the begining make the ramining numbers to acquire differnt index
+# Removing and adding at the begining make the ramining numbers acquire differnt index
 # Because of that the is "O(n)"
 
 
@@ -44,7 +44,7 @@ print(my_list5)
 print(my_list6)
 
 
-#Printing 7 using interation
+#Printing 7 using iteration
 my_list7= [11,3,23,7]
 
 for item in my_list7:

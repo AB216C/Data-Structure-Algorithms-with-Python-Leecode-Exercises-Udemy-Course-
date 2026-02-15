@@ -1,7 +1,7 @@
 # CLASSES
 
 - Analogy: class can be referred to as Cookie Creater
-_ To be able to make a cookie, you need something that will be the base for all cookie: Constructure
+_ To be able to make a cookie, you need something that will be the base for all cookie: Constructor
 
 # POINTERS
 

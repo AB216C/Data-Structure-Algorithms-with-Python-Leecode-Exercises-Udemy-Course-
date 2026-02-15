@@ -1,4 +1,4 @@
-# From this example, num 1 and num2 are pointing to the same boject in the memory
+# From this example, num1 and num2 are pointing to the same boject in the memory
 num1 = 11
 
 num2 = num1
@@ -8,7 +8,6 @@ print("num2:", num2)
 
 print("\nnum1 points to :", id(num1))
 print("\nnum2 points to :", id(num2))
-
 
 num2 = 22
 
@@ -22,8 +21,6 @@ print("\nnum2 points to :", id(num2))
 # Once the integer is created, it can not be changed.
 #num2 and num1 are pointing to a differnt objects in memory because python created new integer object
 # num2 is now pointed to a newly created object(22)
-
-
 
 # DICTIONARIES
 

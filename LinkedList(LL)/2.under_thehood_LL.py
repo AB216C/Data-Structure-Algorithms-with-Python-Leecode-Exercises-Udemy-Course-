@@ -7,11 +7,11 @@
 # Example of a node with a value of 12 
 
 node = {
-    "value" : 11,
+    "value" : 12,
     "next": None
 }
 
-# This is how a Linked List Look like under the good
+# This is how a Linked List Look like under the hood
 
 # 11 -> 3 -> 23 -> 7 -> 4
 
@@ -37,6 +37,6 @@ print(head['next']['value'])
 print(head['next']['next']['value'])
 print(head['next']['next']['next']['value'])
 
-# This will only work with LinkedList
+# The print code below will only work with LinkedList
 
 # print(my_linked_list.head.next.next.value)

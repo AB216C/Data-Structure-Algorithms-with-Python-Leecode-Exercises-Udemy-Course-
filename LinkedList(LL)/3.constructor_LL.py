@@ -1,13 +1,13 @@
 
 # Creating a new Nodes using constructor
 
-# This is creating Nodes constructure
+# This is creating Nodes constructor
 class Node:
     def __init__(self,value):
         self.value = value
         self.next = None
 
-# Creating LinkedList Constructure
+# Creating LinkedList Constructor
 
 class LinkedList:
     def __init__(self,value):

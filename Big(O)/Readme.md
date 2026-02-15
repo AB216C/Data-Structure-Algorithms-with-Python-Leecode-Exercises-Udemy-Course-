@@ -24,8 +24,7 @@ Big(O) summary:
 - O(1) = Constant
 
 Resources:
-
-- Big(O) chart Cheat:
+Big(O) chart Cheat:
 
 https://www.bigocheatsheet.com/
 
