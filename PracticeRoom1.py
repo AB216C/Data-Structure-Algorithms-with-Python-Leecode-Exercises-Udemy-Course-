@@ -4,7 +4,9 @@ class Node:
         self.value = value
         self.next = None
 
+
 # Creating LinkedList Constructure
+
 class LinkedList:
     def __init__(self,value):                                #LinkedList contructor
         new_node = Node(value)
@@ -40,3 +42,14 @@ class LinkedList:
             prev = current
             current = next_node
         self.head = prev
+
+    
+
+
+my_linked_list = LinkedList(1)
+my_linked_list.append(2)
+my_linked_list.append(4)
+my_linked_list.print_list()
+print("LIST BELOW IS REVERSED")
+my_linked_list.reverse()
+my_linked_list.print_list()

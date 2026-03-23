@@ -42,7 +42,6 @@ class DoublyLinkedList:
         self.length += 1
         return True
 
-
 double = DoublyLinkedList(4)
 double.append(40)
 double.prepend(33)
